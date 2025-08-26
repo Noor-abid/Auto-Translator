@@ -6,15 +6,16 @@ college={
     "dept1": "Electrical",
     "dept2":"Computer"
 },
-"years":[
-    "year 1",
-    "year 2",
-    "year 3",
-    "year 4"
-],
+"years":["year 1","year 2","year 3","year 4"],
 "numbers":[1,2,3,4],
 "ID":[10,20,30,40]
 }
-json.dump(college, open("college.json","w"))
-new_college=json.load(open("college.json","r"))
+
+#Save with JSON
+with open("college.json","w") as f:
+  json.dump(college, f,indent=4)
+
+#Load back
+with open("college.json","r") as f:
+  new_college=json.load(f)
 new_college
