@@ -1,6 +1,0 @@
-#Working with CSV Files
-import numpy as np
-data=np.random.random((5,4))
-np.savetxt("main.csv", data, fmt="%.2f", delimiter=",", header="H1,H2,H3,H4")
-reading_csv=np.loadtxt("main.csv",delimiter=",")
-reading_csv[:3,:]
