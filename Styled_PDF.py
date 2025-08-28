@@ -12,7 +12,7 @@ c.setFont("Helvetica-Bold", 24)
 c.setFillColor(blue)
 c.drawCentredString(300, 800, "Welcome to Noor's PDF ")
 
-# Subtitle
+#Subtitle
 c.setFont("Helvetica", 16)
 c.setFillColor(green)
 c.drawCentredString(300, 770, "Created with ReportLab + PyPDF2")
