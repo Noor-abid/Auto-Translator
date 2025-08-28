@@ -29,7 +29,7 @@ c.setFont("Courier-Bold", 18)
 c.setFillColor(blue)
 c.drawString(100, 750, "This is Page 2")
 c.drawString(100, 720, "You can keep adding as many pages as you like!")
- # Save the PDF
+ #Save the PDF
 c.save()
 print("PDF created successfully: styled_intro.pdf")
 
