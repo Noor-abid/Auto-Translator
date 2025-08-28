@@ -17,7 +17,7 @@ c.setFont("Helvetica", 16)
 c.setFillColor(green)
 c.drawCentredString(300, 770, "Created with ReportLab + PyPDF2")
 
-# Body text
+#Body text
 c.setFont("Times-Roman", 12)
 c.setFillColor(red)
 c.drawString(100, 720, "This PDF shows fonts, colors, and positioning.")
